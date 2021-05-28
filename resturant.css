@@ -1,0 +1,147 @@
+body{
+    background: rgb(2,0,36);
+    font-family:sans-serif;
+    position: relative;
+    font-weight: bold;
+    color: darkslateblue;
+    background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+   
+.tacos{
+    margin: 80px 10px;
+}
+.price{
+    text-align: center;
+    font-weight: normal;
+    padding-top: 50px ;
+    font-size: 60px;
+}
+.price1{
+    text-align: center;
+    font-size: bold;
+}
+.tac{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.links{
+    font-size: 20px;
+    width: 200px;
+    padding: 10px;
+    background: #c4f1f1;
+    text-decoration: none;
+    list-style:none;
+    text-align: center;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+}
+
+.naija{
+    background-image: url(tacos.jpg);
+    width: 800px;
+    height: 400px;
+    background-color:#c4f1f1;
+    background-blend-mode: normal;
+    margin:20px 45px;
+}
+#naija{
+    text-align: center;
+    padding-top: 10px;
+    background-color: #c4f1f1;
+    width: 350px;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+#naijap{
+    text-align: center;
+    padding-top: 10px;
+    background-color: #c4f1f1;
+    width: 150px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.ordertaco{
+    width: 400px;
+    height: 190px;
+    background-color: #c4f1f1;
+    margin-top: 0;
+    justify-self: center;
+}
+.section1{
+    display:flex;
+    margin: 10px 45px;
+}
+#section{
+    background: #b86990;
+    padding: 10px 20px;
+    text-align: center;
+}
+.section2{
+    background-color: antiquewhite;
+    display: flex;
+    margin: 20px 45px;
+}
+.img{
+    margin: 50px 50px;
+}
+#feature1{
+    text-align:left;
+    width: 500px;
+    font-size: 15px;
+    justify-items: stretch;
+    margin-top: 150px;
+}
+#feature{
+    text-align:left;
+    width: 500px;
+    font-size: 12px;
+    justify-items: stretch;
+}
+.but1{
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: aquamarine;
+}
+.instant{
+    color: aquamarine;
+
+}
+.instant::before{
+    content:'';
+    width: 450px;
+    height: 10px;
+    background: rgb(204, 112, 204);
+    display: block;
+    position: absolute;
+    top: 71%;
+    left: 45px;
+}
+.instant::after{
+    content:'';
+    width: 450px;
+    height: 10px;
+    background: rgb(204, 112, 204);
+    display: block;
+    position: absolute;
+    top: 71%;
+    right: 45px;
+}
+.pictures{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    margin: 10px 45px;
+}
+.pic{
+    width: 220px;
+    padding: 10px 10px;
+}
